@@ -51,7 +51,7 @@ module.exports = {
         `,
         // variables: defaults to variables needed for a search query
         variables: {
-          number_of_repos: 5,
+          number_of_repos: 6,
         },
       },
     },
