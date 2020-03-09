@@ -4723,10 +4723,10 @@ gatsby-react-router-scroll@^2.1.20:
     scroll-behavior "^0.9.10"
     warning "^3.0.0"
 
-gatsby-source-github-api@0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/gatsby-source-github-api/-/gatsby-source-github-api-0.1.4.tgz#b535994240eede8050809b976c802f1a509c6ab8"
-  integrity sha512-3bBlsufOSETRhWGdolOrNoBh7tlKLzn2L6T2YvmyGq23oSjJFuIhWkseWCMuCnLUyKfiHACDnc8IrOilTJb8hg==
+gatsby-source-github-api@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-github-api/-/gatsby-source-github-api-0.2.0.tgz#f0d09a693cae59b4151ad43e024e7d85a97dacd0"
+  integrity sha512-idO8cfwSOpfU+R58NQ9bxyixv/rEcPeQUUpo+Bu3TFXXLZ9onJ3/JP98Xl/MLHXC4vm20WxHqoAVjkuAbdSeXQ==
   dependencies:
     graphql-fetch "^1.0.1"
     uuid "^3.1.0"
