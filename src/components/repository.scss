@@ -35,6 +35,7 @@
 
 .repo-cover {
   background-size: cover;
+  background-position-x: center;
   border-radius: 5px 5px 0 0;
   height: 15rem;
   box-shadow: inset hsla(0, 0, 0, 0.2) 0 64px 64px 16px;
@@ -59,6 +60,7 @@
 .repo-title h1 a {
   color: #333;
   font-weight: 100;
+  word-wrap: break-word;
 }
 .repo-summary p {
   color: lighten(#333, 10%);
