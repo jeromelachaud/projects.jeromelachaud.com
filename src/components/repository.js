@@ -37,7 +37,9 @@ export default ({
     <div className="repo-footer">
       <ul>
         <li className="icons">
-          <a href={homepageUrl}>view project</a>
+          <a href={homepageUrl} target="_blank" rel="noopener noreferrer">
+            view project
+          </a>
         </li>
         <li className="comments">
           <a href={url} target="_blank" rel="noopener noreferrer">
