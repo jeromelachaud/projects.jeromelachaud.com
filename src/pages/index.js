@@ -5,8 +5,7 @@ import Main from "../components/main"
 import SEO from "../components/seo"
 import "./index.css"
 import "./normalize.css"
-// our only page is the main component provided with data
-// from the graphQl query's result
+
 export default function({ data }) {
   return (
     <Layout>
