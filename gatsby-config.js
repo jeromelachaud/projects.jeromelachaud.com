@@ -64,5 +64,13 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `projects.jeromelachaud.com`,
+        short_name: `projects.jeromelachaud.com`,
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
+      },
+    },
   ],
 }
