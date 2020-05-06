@@ -6,6 +6,7 @@
  */
 
 import { graphql, useStaticQuery } from "gatsby"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 import PropTypes from "prop-types"
 import React from "react"
 import Header from "./header"
@@ -32,14 +33,14 @@ const Layout = ({ children }) => {
         <footer>
           Built with
           {` `}
-          <a
+          <OutboundLink
             href="https://www.gatsbyjs.org"
             style={{
               color: "#333",
             }}
           >
             Gatsby
-          </a>
+          </OutboundLink>
         </footer>
       </div>
     </>
