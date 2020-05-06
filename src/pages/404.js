@@ -1,3 +1,4 @@
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 import React from "react"
 
 export default () => {
@@ -12,25 +13,25 @@ export default () => {
             /home
           </a>
           <br />
-          <a
+          <OutboundLink
             href="https://www.linkedin.com/in/jeromelachaud/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Jerome Lachaud LinkedIn"
             style={{ color: "grey" }}
           >
-            linkedin
-          </a>
+            linkedIn
+          </OutboundLink>
           <br />
-          <a
+          <OutboundLink
             href="https://github.com/jeromelachaud"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Jerome Lachaud Github"
             style={{ color: "grey" }}
           >
-            github
-          </a>
+            GitHub
+          </OutboundLink>
         </p>
       </header>
     </div>
