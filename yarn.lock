@@ -5726,10 +5726,10 @@ gatsby-parcel-config@1.13.0:
     "@parcel/transformer-js" "2.8.3"
     "@parcel/transformer-json" "2.8.3"
 
-gatsby-plugin-google-analytics@5.13.0:
-  version "5.13.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-5.13.0.tgz#dca932a2739b9b6d817c88a3bde9dbfd6e46dc23"
-  integrity sha512-zKl8j/Ob3yaZF1o7YTaj4vfyCCJ8mlLBLrzMSaBZpFaHdGjuxFxrOeLCaRvjT1HwRM+X9sxxj99fi6nDGnLWRw==
+gatsby-plugin-google-analytics@5.13.1:
+  version "5.13.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-5.13.1.tgz#6406e8b52a5df67ca3978a1d6f6ca661a7f6ac61"
+  integrity sha512-6TzvUPW7CBpfpSIqpcvaRwRKTYgM3CKqSnfyRIY16vlAKYkAtZLXm3PkIbg0+mM+WzY6GRnAoeXqRkXJv0FK9A==
   dependencies:
     "@babel/runtime" "^7.20.13"
     minimatch "^3.1.2"
